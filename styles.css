@@ -1,0 +1,75 @@
+body{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.bigcontainer{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bigcontainer h3:first-child{
+    position:absolute;
+    margin-top: -600px;
+}
+.bigcontainer h3{
+    position:absolute;
+    margin-top: -500px;
+}
+.grid{
+    border: 1px solid;
+    height: 360px;
+    width: 420px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.grid div{
+    height: 60px;
+    width: 60px;
+
+}
+
+.player-one{
+    background-color: red;
+    border-radius: 10px;
+}
+.player-two{
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.modal{
+    color: #fdbebe;
+    font-size: 40px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    width: 422px;
+    height: 362px;
+    position: absolute;
+    background-color: red;
+    border-radius: 10px;
+    display: none;
+
+}
+.modal p{
+    position: absolute;
+    margin-top: -150px;
+}
+.reload{
+    position: absolute;
+    margin-top: 150px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
